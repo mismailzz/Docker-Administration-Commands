@@ -40,7 +40,7 @@ This contain the Docker Administration Commands list. The list is not complete a
 	~$docker rmi [image ID] #it will remove the image by ID
 	~$docker rmi $(docker images -q) #it will remove all images
 	~$docker rmi  -f $(docker images -q) #forcefully remove all the images
-	~$docker image prune -a  #This will remove all images without at least one container associated to them.
+	~$docker image prune -a  #This will remove all images without at least one container associated to them. To remove dangling images
 
 ### For MySQL
 
